@@ -15,6 +15,11 @@ import dev.langchain4j.model.output.Response;
  **/
 public class ImageDemo {
     public static void main(String[] args) {
+//        ImageModel model = OpenAiImageModel.builder()
+//                .baseUrl(ModelUtil.BASE_URI_OPENAI)
+//                .apiKey(ModelUtil.API_KEY_OPENAI)
+//                .build();
+
         ImageModel model = OpenAiImageModel.builder()
                 .baseUrl(ModelUtil.BASE_URI_OPENAI)
                 .apiKey(ModelUtil.API_KEY_OPENAI)
