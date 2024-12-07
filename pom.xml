@@ -40,6 +40,11 @@
       <version>${langchain4j.version}</version>
     </dependency>
     <dependency>
+      <groupId>dev.langchain4j</groupId>
+      <artifactId>langchain4j-redis</artifactId>
+      <version>${langchain4j.version}</version>
+    </dependency>
+    <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
@@ -48,16 +53,17 @@
       <artifactId>langchain4j-open-ai-spring-boot-starter</artifactId>
       <version>0.35.0</version>
     </dependency>
-    <dependency>
-      <groupId>org.tinylog</groupId>
-      <artifactId>tinylog-impl</artifactId>
-      <version>2.6.2</version>
-    </dependency>
-    <dependency>
-      <groupId>org.tinylog</groupId>
-      <artifactId>slf4j-tinylog</artifactId>
-      <version>2.6.2</version>
-    </dependency>
+<!--    引入springboot后，下面两个 tinylog-impl slf4j-tinylog 就不需要了 -->
+<!--    <dependency>-->
+<!--      <groupId>org.tinylog</groupId>-->
+<!--      <artifactId>tinylog-impl</artifactId>-->
+<!--      <version>2.6.2</version>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>org.tinylog</groupId>-->
+<!--      <artifactId>slf4j-tinylog</artifactId>-->
+<!--      <version>2.6.2</version>-->
+<!--    </dependency>-->
 
     <dependency>
       <groupId>junit</groupId>
