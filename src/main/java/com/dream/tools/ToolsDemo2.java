@@ -21,7 +21,7 @@ public class ToolsDemo2 {
 
     public static void main(String[] args) {
 
-        ChatLanguageModel model = ModelUtil.getOpenAiModel();
+        ChatLanguageModel model = ModelUtil.getOpenAIModel();
         //构建工具
         List<ToolSpecification> toolSpecifications = ToolSpecifications.toolSpecificationsFrom(WeatherUtil.class);
 

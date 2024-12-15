@@ -31,7 +31,7 @@ public class ToolsDemo1 {
 
     public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
 
-        ChatLanguageModel model = ModelUtil.getOpenAiModel();
+        ChatLanguageModel model = ModelUtil.getOpenAIModel();
 
         ToolSpecification toolSpecification = ToolSpecifications.toolSpecificationFrom(ToolsDemo1.class.getMethod("dataUtil"));
 
